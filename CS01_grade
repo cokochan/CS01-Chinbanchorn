@@ -1,0 +1,22 @@
+print('program to grading your scores')
+a = float(input('fill your collected scores: '))
+b = float(input('fill your Mid-term scores: '))
+c = float(input('fill your Final-term scores: '))
+x = (a+b+c)
+if (x >= 80):
+    grade = 'A'
+elif (x>= 75):
+    grade = 'B+'
+elif (x>= 70):
+    grade = 'B'
+elif (x>=65):
+    grade = 'C+'
+elif (x>=60):
+    grade = 'C'
+elif (x>=55):
+    grade = 'D+'
+elif (x>=50):
+    grade = 'D'
+else:
+    grade = 'F'
+print('Your score is:',x,'Your grade is: ',grade)
