@@ -1,5 +1,7 @@
-a = int(input('enter number: '))
-if (a<10):
-    print('1 digit number')
+x = int(input('enter x: '))
+y = int(input('enter y: '))
+z= int(input('enter z: '))
+if (x==y==z):
+    print('x y and z is equal')
 else:
-    print('not 1 digit number')
+    print('x y and z is not equal')
