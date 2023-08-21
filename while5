@@ -1,0 +1,9 @@
+n = int(input('enter number: '))
+print(n)
+while True:
+    if n <= 1000:
+        n*=2
+        print(n)
+    if n>1000:
+        break
+    
