@@ -1,0 +1,8 @@
+y = 0
+for i in range(3):
+    x = int(input('enter the number: '))
+    if x > y:
+        y = x
+    else:
+        pass
+print(y)

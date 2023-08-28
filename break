@@ -1,0 +1,45 @@
+for i in range (0):
+    if i == 3:
+        continue
+    print(i)
+
+num = 0
+while num < 0:
+    num += 1
+    if(num%2) == 0:
+        continue
+    print(num)
+
+n = 10
+#use pass inside if statement
+if n > 10:
+    pass
+print('hello')
+
+def greet():
+    print('hello world!')
+
+#call the function
+greet()
+print('outside function')
+
+def plus():
+    e = int(input('enter number: '))
+    q = int(input('enter another number: '))
+    print(e+q,'is the ans')
+
+plus()
+
+def find_square(w):
+    result = w*w
+    return result
+#function call
+square = find_square(3)
+print('Square: ',square)
+#output: square:9
+
+import math
+#aqrt computes the square root
+square_root = math.sqrt(4)
+print('square Root of 4 is: ', square_root)
+

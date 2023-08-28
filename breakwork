@@ -1,0 +1,6 @@
+while True:
+    n = int(input('enter the number: '))
+    if n == -1:
+        print('stopped')
+        break
+        
